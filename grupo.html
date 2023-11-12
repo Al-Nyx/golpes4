@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    body {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        background-image: url(fundo2.png);
+        background-repeat: no-repeat;
+        background-size: 2080px 1080px;
+    }
+
+    html {
+        scroll-behavior: smooth;
+    }
+
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        color: #fff
+    }
+
+    h1 {
+        font-size: 38px;
+    }
+
+    header {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        padding: 40px 80px 0 80px;
+        background-image: linear-gradient(-90deg, #000000, #000000d1, #000000);
+    }
+
+    header div {
+        margin: auto;
+        margin-left: 0;
+    }
+
+    nav ul {
+        display: flex;
+    }
+
+    nav ul li {
+        padding: 0 20px;
+        list-style: none;
+        font-size: 20px;
+    }
+
+    a {
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+    }
+
+    #inicio {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 500px;
+        padding: 30px 80px;
+        background-image: linear-gradient(-90deg, #000000, #ad0000d1, #000000);
+    }
+
+    #inicio div {
+        width: 700px;
+        padding-right: 80px;
+    }
+
+    #inicio div p {
+        margin-top: 20px;
+        font-size: 20px;
+    }
+
+    #inicio div button {
+        width: 150px;
+        height: 50px;
+        border-radius: 90px;
+        border: none;
+        margin: 20px 0;
+        font-size: 20px;
+        font-weight: 600;
+        background: #000000;
+        color: #fff
+    }
+
+    #inicio div button:hover {
+        background: rgb(0, 0, 0);
+    }
+
+    #sobre {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+        height: 350px;
+        background: #fff;
+    }
+
+    #sobre div {
+        width: 300px;
+    }
+
+    #sobre div h1 {
+        margin: 10px 0;
+        font-size: 30px;
+        color: #000000;
+    }
+
+    #sobre div p {
+        color: #000000;
+    }
+
+    #sobre div img {
+        width: 100px;
+        height: 100px;
+    }
+
+    #cursos {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        height: 650px;
+        background-image: linear-gradient(-90deg, );
+        padding: 0 30px;
+    }
+
+    #cursos div {
+        text-align: center;
+    }
+
+    #cursos div h1 {
+        margin-bottom: 40px;
+    }
+
+    #cursos form {
+        width: 350px;
+        color: #f7f9fc;
+        background: #505050;
+        padding: 40px;
+        border-radius: 15px;
+        font-size: 18px;
+    }
+
+    #cursos form input {
+        width: 270px;
+        margin: 10px 0;
+        padding: 9px;
+        background: #fff;
+        border: solid 1px #2A2850;
+        font-size: 14px;
+    }
+
+    #cursos form button {
+        background: #000000;
+        width: 270px;
+        height: 55px;
+        border: none;
+        color: #fff;
+        font-size: 20px;
+        font-weight: 600;
+        margin-top: 20px;
+        border-radius: 50px;
+
+    }
+
+    #cursos form button:hover {
+        background: rgb(187, 7, 7);
+    }
+
+    footer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 80px;
+        background: #000000;
+        color: #ffffff;
+        font-size: 20px;
+    }
+
+    @media (max-width: 1000px) {
+        #inicio img {
+            display: none;
+        }
+    }
+
+    @media (max-width: 800px) {}
+
+    header {
+        padding: 40px 40px 0 40px;
+    }
+
+    nav ul li {
+        padding: 0 10px;
+        list-style: none;
+        font-size: 18px;
+    }
+
+    #inicio {
+        padding: 10px 40px;
+    }
+
+    #inicio div {
+        padding-right: 0px;
+    }
+
+    #inicio img {
+        display: none;
+    }
+
+    #sobre {
+        display: flex;
+        flex-direction: column;
+        height: 800px;
+        padding: 40px 0;
+    }
+
+    #cursos div {
+        display: none;
+    }
+</style>
+
+<body>
+    <header>
+        <div>
+            <h2>Atlantico Brasil</h2>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="parceiros.html">Parceiros</a></li>
+                <li><a href="grupo.html">Loja</a></li>
+                <li><a href="#cursor" target="_blank"></a></li>
+                    </a></li>
+                <li>Cadastrar</li>
+                </a>
+            </ul>
+        </nav>
+    </header>
+
+
+    <section id="inicio">
+        <div>
+            <h2>
+                Você está pronto para uma experiência inigualável? Na Atlanticobrasil, temos o prazer de apresentar a
+                você a última palavra em tecnologia móvel: o iPhone! Se você está em busca de um dispositivo que une
+                design deslumbrante, desempenho poderoso e inovação de ponta, não procure mais. Aqui estão apenas
+                algumas razões pelas quais o iPhone é a escolha perfeita para você
+            </h2>
+            <p> Descubra o Futuro com o Novo iPhone 14 pro max em Nossa Loja!
+            </p>
+            <button>Saiba mais</button>
+        </div>
+        <img src="/assets/2590504.png" alt="">
+    </section>
+    <br>
+    <section id="sobre">
+        <div>
+            <img src="cadeado.png" alt="">
+            <h1>Compra Segura</h1>
+            <p>🔐 Garantimos a sua tranquilidade! Compre com confiança na Atlanticobrasil. Protegemos os seus dados,
+                oferecemos métodos de pagamento seguros e priorizamos a sua segurança em todas as transações. Sua
+                satisfação é a nossa prioridade, e nossa Compra Segura é a garantia de uma experiência de compra sem
+                preocupações
+            </p>
+        </div>
+        <div>
+            <img src="caminhao.jpg" alt="">
+            <h1>Entrega Eficiente</h1>
+            <p>🚚 Na [Nome da Sua Loja], oferecemos opções de entrega eficiente, incluindo Frete Rápido e Frete Grátis
+                para sua conveniência. Compre agora e receba seus produtos rapidamente.
+            </p>
+        </div>
+        <div>
+            <img src="image.png" alt="">
+            <h1>Suporte 24h</h1>
+            <p> Nunca pare! Com nosso 'Suporte 24h', estamos sempre disponíveis, 24/7, para resolver suas necessidades.
+                Não importa quando, estamos prontos para ajudar! 💪🕒
+            </p>
+        </div>
+    </section>
+
+    <section id="cursos">
+        <div>
+            <h1>Junte-se à nossa comunidade</h1>
+            <img src="/assets/494641.png" alt="">
+        </div>
+        <form action="POST">
+            <label for="">Nome</label>
+            <input type="text" name="" id="" placeholder="Seu nome completo">
+            <label for="">Usuário</label>
+            <input type="text" name="" id="" placeholder="username">
+            <label for="">Senha</label>
+            <input type="text" name="" id="" placeholder="Digite uma senha">
+            <label for="">E-mail</label>
+            <input type="text" name="" id="" placeholder="Seu endereço de e-mail">
+            <button type="submit">Cadastrar</button>
+          
+        </form>
+    </section>
+</body>
+
+</html>
+
+<footer>
+    <p>Todos os direitos reservados &copy; 2023 - Alan, Marcos, Evandro e João</p>
+</footer>
+</body>
+
+</html>

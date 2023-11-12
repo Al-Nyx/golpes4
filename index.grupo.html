@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            background-image: url(fundo2.png);
+            background-repeat: no-repeat;
+            background-size: 2080px 1080px;
+
+
+
+        }
+
+
+        .title {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        .image-container {
+            margin-bottom: 20px;
+        }
+
+        .image-container img {
+            display: none;
+        }
+
+        button {
+            background-color: #4caf50;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+    <title>Image Gallery</title>
+</head>
+
+<body>
+    <div class="title">Escolha uma cidade:</div>
+    <div class="image-container">
+        <img src="rj.webp" alt="Rio de Janeiro" id="gallery-image">
+    </div>
+    <button onclick="trocarImagem()">Próxima Cidade</button>
+
+</body>
+
+</html>

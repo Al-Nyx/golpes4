@@ -1,0 +1,233 @@
+* {
+
+    border-radius: 0px;
+    padding: 10;
+    margin: 0;
+
+
+}
+
+html {
+    scroll-behavior: smooth;
+
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #fff
+}
+
+h1 {
+    font-size: 58px;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 1px 10px 0 80px;
+    background-image: linear-gradient(-100deg, #000000, #000000d1, #000000);
+    display: flex;
+    height: 5vh;
+    margin: 0;
+
+}
+
+
+header div {
+    margin: auto;
+    margin-left: 0;
+
+}
+
+nav ul {
+    display: flex;
+
+}
+
+nav ul li {
+    padding: 0 20px;
+    list-style: none;
+    font-size: 20px;
+
+}
+
+a {
+    text-align: center;
+    background: tr(255, 0, 0);
+    color: white;
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+    border: 3px solid #00000096;
+    border-radius: 3px;
+}
+
+
+#inicio {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 820px;
+    padding: 10px 70px;
+    background-image: linear-gradient(-100deg, #000000, #ad0000d1, #000000);
+}
+
+#inicio div {
+    width: 700px;
+    padding-right: 8px;
+
+}
+
+#inicio div p {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+#inicio div button {
+    width: 150px;
+    height: 50px;
+    border-radius: 90px;
+    border: none;
+    margin: 202px 0;
+    font-size: 20px;
+    font-weight: 600;
+    background: #000000;
+    color: #000000
+}
+
+#inicio div button:hover {
+    background: rgb(0, 0, 0);
+}
+
+#sobre {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    height: 450px;
+    background: #505050;
+}
+
+#sobre div {
+    width: 300px;
+}
+
+#sobre div h1 {
+    margin: 8px 0;
+    font-size: 20px;
+    color: #000000;
+}
+
+#sobre div p {
+    color: #121212;
+}
+
+#sobre div img {
+    width: 100px;
+    height: 100px;
+}
+
+#cursos {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1vh;
+    margin: 0;
+}
+
+.content {
+    text-align: center;
+}
+
+#cursos div {
+    text-align: center;
+}
+
+#cursos div h1 {
+    margin-bottom: 0px;
+}
+
+#cursos form {
+    width: 350px;
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 73px;
+    font-size: 18px;
+}
+
+#cursos form input {
+    width: 270px;
+    margin: 10px 0;
+    padding: 9px;
+    background: #fff;
+    font-size: 10px;
+}
+
+#cursos form button {
+    background: #000000;
+    width: 270px;
+    height: 55px;
+    border: none;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 10px;
+    border-radius: 50px;
+}
+
+#cursos form button:hover {
+    background: rgb(187, 7, 7);
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 25px;
+    background: #000000;
+    color: #eeeeee;
+    font-size: 20px;
+}
+
+@media (max-width: 100px) {
+    #inicio img {
+        display: none;
+    }
+}
+
+@media (max-width: 800px) {
+    header {
+        padding: 40px 40px 0 40px;
+    }
+
+    nav ul li {
+        padding: 0 10px;
+        list-style: none;
+        font-size: 18px;
+    }
+
+    #inicio {
+        padding: 10px 40px;
+    }
+
+    #inicio div {
+        padding-right: 0px;
+    }
+
+    #inicio img {
+        display: none;
+    }
+
+    #sobre {
+        display: flex;
+        flex-direction: column;
+        height: 800px;
+        padding: 40px 0;
+    }
+
+    #cursos div {
+        display: none;
+    }
+}
